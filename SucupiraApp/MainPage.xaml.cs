@@ -1,33 +1,22 @@
-﻿using Npgsql;
+﻿using SucupiraApp.Views;
 using SucupiraApp.Database;
+using Npgsql;
 
 namespace SucupiraApp;
 
 public partial class MainPage : ContentPage
 {
-    int count = 0;
-
     public MainPage()
     {
         InitializeComponent();
     }
 
-    private async void OnCounterClicked(object sender, EventArgs e)
+    private async void OnCadastrarProfessorClicked(object sender, EventArgs e)
     {
-        count++;
-
-        if (count == 1)
-            CounterBtn.Text = $"Clicked {count} time";
-        else
-            CounterBtn.Text = $"Clicked {count} times";
-
-        SemanticScreenReader.Announce(CounterBtn.Text);
-
-        // Chama o teste de conexão ao clicar no botão
-        await TestarConexaoAsync();
+        await Navigation.PushAsync(new CadastroProfessorPage());
     }
 
-    private async Task TestarConexaoAsync()
+    private async void OnTestarConexaoClicked(object sender, EventArgs e)
     {
         try
         {
@@ -38,11 +27,11 @@ public partial class MainPage : ContentPage
             using var cmd = new NpgsqlCommand("SELECT COUNT(*) FROM Professor", conn);
             var resultado = await cmd.ExecuteScalarAsync();
 
-            await Application.Current.MainPage.DisplayAlert("Sucesso", $"Total de professores: {resultado}", "OK");
+            await DisplayAlert("Sucesso", $"Total de professores: {resultado}", "OK");
         }
         catch (Exception ex)
         {
-            await Application.Current.MainPage.DisplayAlert("Erro", ex.Message, "OK");
+            await DisplayAlert("Erro", ex.Message, "OK");
         }
     }
 }

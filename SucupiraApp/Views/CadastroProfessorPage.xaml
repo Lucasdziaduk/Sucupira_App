@@ -1,0 +1,35 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SucupiraApp.Views.CadastroProfessorPage"
+             Title="Cadastrar Professor">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+
+            <Label Text="Nome" FontAttributes="Bold" />
+            <Entry x:Name="NomeEntry" Placeholder="Digite o nome" />
+
+            <Label Text="Email" FontAttributes="Bold" />
+            <Entry x:Name="EmailEntry" Placeholder="Digite o email" Keyboard="Email" />
+
+            <Label Text="Senha" FontAttributes="Bold" />
+            <Entry x:Name="SenhaEntry" Placeholder="Digite a senha" IsPassword="True" />
+
+            <Label Text="URL do Lattes" FontAttributes="Bold" />
+            <Entry x:Name="LattesEntry" Placeholder="Cole o link do currículo Lattes" />
+
+            <Label Text="Permissão" FontAttributes="Bold" />
+            <Picker x:Name="PermissaoPicker" Title="Selecione o nível de permissão" />
+
+
+            <Button Text="Salvar"
+                Clicked="OnSalvarClicked"
+                BackgroundColor="#007bff"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

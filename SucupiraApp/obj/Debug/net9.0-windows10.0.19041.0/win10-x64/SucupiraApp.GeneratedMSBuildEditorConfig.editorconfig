@@ -51,3 +51,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/user/source/repos/SucupiraApp/SucupiraApp/Views/CadastroProfessorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Views.CadastroProfessorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CadastroProfessorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CadastroProfessorPage.xaml

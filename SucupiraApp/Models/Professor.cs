@@ -15,7 +15,6 @@ namespace SucupiraApp.Models
         public string LattesUrl {get; set; } = string.Empty;
         public bool Ativo { get; set; } = true;
         public NivelPermissao NivelPermissao { get; set; } = NivelPermissao.Professor;
-        public List<string> RegistroAcoes { get; set; } = new List<string>();
     }
 }
 
