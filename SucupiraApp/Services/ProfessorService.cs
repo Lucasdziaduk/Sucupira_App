@@ -105,7 +105,7 @@ namespace SucupiraApp.Services
             var sql = @"UPDATE Professor SET 
                         Nome = @Nome, Email = @Email, SenhaHash = @SenhaHash, 
                         LattesUrl = @LattesUrl, Ativo = @Ativo, 
-                        NivelPermissao = @NivelPermissao,
+                        NivelPermissao = @NivelPermissao
                         WHERE Id = @Id";
 
             using var cmd = new NpgsqlCommand(sql, conn);

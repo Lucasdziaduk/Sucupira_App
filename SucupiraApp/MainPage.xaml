@@ -16,6 +16,13 @@
                 CornerRadius="10"
                 Padding="10" />
 
+        <Button Text="Listar Professores"
+                Clicked="OnListarProfessorClicked"
+                BackgroundColor="#17a2b8"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10" />
+
         <Button Text="Testar Conexão com Banco"
                 Clicked="OnTestarConexaoClicked"
                 BackgroundColor="#28a745"

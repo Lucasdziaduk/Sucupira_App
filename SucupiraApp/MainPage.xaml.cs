@@ -1,11 +1,14 @@
 ﻿using SucupiraApp.Views;
 using SucupiraApp.Database;
 using Npgsql;
+using SucupiraApp.Services;
 
 namespace SucupiraApp;
 
 public partial class MainPage : ContentPage
 {
+    private readonly ProfessorService _professorService = new();
+
     public MainPage()
     {
         InitializeComponent();
@@ -14,6 +17,11 @@ public partial class MainPage : ContentPage
     private async void OnCadastrarProfessorClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new CadastroProfessorPage());
+    }
+
+    private async void OnListarProfessorClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ProfessorListPage());
     }
 
     private async void OnTestarConexaoClicked(object sender, EventArgs e)
