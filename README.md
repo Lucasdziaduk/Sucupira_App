@@ -1,0 +1,1 @@
+Ola a todos que vieram ate aqui, isso que estao vendo é o meu projeto de iniciação cientifica onde devo criar um aplicativo onde professores possam colocar informações sobre as suas pesquisas academicas, facilitando depois para o envio na plataforma Sucupira.
