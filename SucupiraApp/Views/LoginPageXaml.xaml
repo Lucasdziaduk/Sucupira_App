@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SucupiraApp.Views.LoginPage"
+             Title="Login">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12" VerticalOptions="Center">
+            <Label Text="Email" FontAttributes="Bold" />
+            <Entry x:Name="EmailEntry" Placeholder="Digite seu email" Keyboard="Email" />
+
+            <Label Text="Senha" FontAttributes="Bold" />
+            <Entry x:Name="SenhaEntry" Placeholder="Digite sua senha" IsPassword="True" />
+
+            <Button Text="Entrar"
+                    Clicked="OnLoginClicked"
+                    BackgroundColor="#007bff"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="10" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

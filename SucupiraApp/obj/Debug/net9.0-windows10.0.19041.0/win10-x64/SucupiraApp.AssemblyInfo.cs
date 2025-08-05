@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SucupiraApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2fa3c9069de26754a781f708d5db7a5cde6e3a40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b7e9fa1813a318b759d7d6453adca58803d4ddfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("SucupiraApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SucupiraApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

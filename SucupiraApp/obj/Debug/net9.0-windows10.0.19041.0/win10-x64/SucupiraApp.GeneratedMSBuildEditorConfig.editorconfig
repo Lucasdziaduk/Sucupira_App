@@ -58,8 +58,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Views.Cadastro
 build_metadata.AdditionalFiles.TargetPath = Views\CadastroProfessorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CadastroProfessorPage.xaml
 
+[C:/Users/user/source/repos/SucupiraApp/SucupiraApp/Views/LoginPageXaml.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Views.LoginPageXaml.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPageXaml.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPageXaml.xaml
+
 [C:/Users/user/source/repos/SucupiraApp/SucupiraApp/Views/ProfessorListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Views.ProfessorListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfessorListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfessorListPage.xaml
+
+[C:/Users/user/source/repos/SucupiraApp/SucupiraApp/Views/TelaInicialPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SucupiraApp.Views.TelaInicialPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TelaInicialPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TelaInicialPage.xaml

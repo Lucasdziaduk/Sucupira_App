@@ -131,5 +131,32 @@ namespace SucupiraApp.Services
 
             await cmd.ExecuteNonQueryAsync();
         }
+
+        public async Task<Professor?> BuscarPorEmailAsync(string email)
+        {
+            using var conn = _db.GetConnection();
+            await conn.OpenAsync();
+
+            var sql = "SELECT * FROM Professor WHERE Email = @Email";
+            using var cmd = new NpgsqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("Email", email);
+
+            using var reader = await cmd.ExecuteReaderAsync();
+            if (await reader.ReadAsync())
+            {
+                return new Professor
+                {
+                    Id = reader.GetInt32(reader.GetOrdinal("Id")),
+                    Nome = reader.GetString(reader.GetOrdinal("Nome")),
+                    Email = reader.GetString(reader.GetOrdinal("Email")),
+                    SenhaHash = reader.GetString(reader.GetOrdinal("SenhaHash")),
+                    LattesUrl = reader.GetString(reader.GetOrdinal("LattesUrl")),
+                    Ativo = reader.GetBoolean(reader.GetOrdinal("Ativo")),
+                    NivelPermissao = Enum.Parse<NivelPermissao>(reader.GetString(reader.GetOrdinal("NivelPermissao"))),
+                };
+            }
+
+            return null;
+        }
     }
 }

@@ -66,6 +66,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\LoginPageXaml.xaml.cs">
+	    <DependentUpon>LoginPageXaml.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\ProfessorListPage.xaml.cs">
 	    <DependentUpon>ProfessorListPage.xaml</DependentUpon>
 	  </Compile>
@@ -75,7 +78,13 @@
 	  <MauiXaml Update="Views\CadastroProfessorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\LoginPageXaml.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ProfessorListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TelaInicialPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

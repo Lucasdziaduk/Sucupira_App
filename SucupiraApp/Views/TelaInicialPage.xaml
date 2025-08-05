@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SucupiraApp.Views.TelaInicialPage"
+             Title="Bem-vindo">
+
+    <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+
+        <Label Text="Bem-vindo ao SucupiraApp"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Button Text="Criar Conta"
+                Clicked="OnCriarContaClicked"
+                BackgroundColor="#007bff"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10"/>
+
+        <Button Text="Fazer Login"
+                Clicked="OnLoginClicked"
+                BackgroundColor="#28a745"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10"/>
+
+        <Button Text="Permanecer Desconectado"
+                Clicked="OnContinuarAnonimoClicked"
+                BackgroundColor="#6c757d"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10"/>
+    </VerticalStackLayout>
+
+</ContentPage>
