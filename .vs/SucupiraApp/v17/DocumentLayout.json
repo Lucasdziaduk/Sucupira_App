@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\SucupiraApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|c:\\users\\user\\source\\repos\\sucupiraapp\\sucupiraapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|solutionrelative:sucupiraapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|c:\\users\\user\\source\\repos\\sucupiraapp\\sucupiraapp\\views\\telainicialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|solutionrelative:sucupiraapp\\views\\telainicialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|c:\\users\\user\\source\\repos\\sucupiraapp\\sucupiraapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|solutionrelative:sucupiraapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|c:\\users\\user\\source\\repos\\sucupiraapp\\sucupiraapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|solutionrelative:sucupiraapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F84B930-80AB-4C4D-B85F-C348979B041C}|SucupiraApp\\SucupiraApp.csproj|c:\\users\\user\\source\\repos\\sucupiraapp\\sucupiraapp\\views\\professorlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -94,16 +94,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TelaInicialPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml.cs",
               "RelativeDocumentMoniker": "SucupiraApp\\Views\\TelaInicialPage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml.cs*",
-              "RelativeToolTip": "SucupiraApp\\Views\\TelaInicialPage.xaml.cs*",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml.cs",
+              "RelativeToolTip": "SucupiraApp\\Views\\TelaInicialPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T17:44:46.959Z",
@@ -111,25 +111,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TelaInicialPage.xaml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml",
               "RelativeDocumentMoniker": "SucupiraApp\\Views\\TelaInicialPage.xaml",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml*",
-              "RelativeToolTip": "SucupiraApp\\Views\\TelaInicialPage.xaml*",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\TelaInicialPage.xaml",
+              "RelativeToolTip": "SucupiraApp\\Views\\TelaInicialPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-04T17:42:43.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T17:42:43.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "SucupiraApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\App.xaml.cs*",
-              "RelativeToolTip": "SucupiraApp\\App.xaml.cs*",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\App.xaml.cs",
+              "RelativeToolTip": "SucupiraApp\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T18:47:11.915Z",
@@ -137,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CadastroProfessorPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\CadastroProfessorPage.xaml.cs",
               "RelativeDocumentMoniker": "SucupiraApp\\Views\\CadastroProfessorPage.xaml.cs",
@@ -145,12 +144,11 @@
               "RelativeToolTip": "SucupiraApp\\Views\\CadastroProfessorPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:14:39.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T17:14:39.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "SucupiraApp\\MainPage.xaml.cs",
@@ -158,12 +156,11 @@
               "RelativeToolTip": "SucupiraApp\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:59:40.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T18:59:40.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginPageXaml.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\Views\\LoginPageXaml.xaml.cs",
               "RelativeDocumentMoniker": "SucupiraApp\\Views\\LoginPageXaml.xaml.cs",
@@ -171,8 +168,7 @@
               "RelativeToolTip": "SucupiraApp\\Views\\LoginPageXaml.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:28:48.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T18:28:48.127Z"
             },
             {
               "$type": "Document",
@@ -184,8 +180,7 @@
               "RelativeToolTip": "SucupiraApp\\Views\\ProfessorListPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T00:45:23.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T00:45:23.453Z"
             },
             {
               "$type": "Document",
@@ -201,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\SucupiraApp\\SucupiraApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "SucupiraApp\\MainPage.xaml",
@@ -209,8 +204,7 @@
               "RelativeToolTip": "SucupiraApp\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T18:00:02.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T18:00:02.454Z"
             },
             {
               "$type": "Document",
@@ -282,8 +276,7 @@
               "RelativeToolTip": "SucupiraApp\\Views\\CadastroProfessorPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T17:14:33.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T17:14:33.483Z"
             },
             {
               "$type": "Document",
